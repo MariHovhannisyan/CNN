@@ -82,37 +82,53 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
 
 ---
 
-<h2 align="center"><strong>4. Running the Demo App [app.py](https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/app.py)
+<p align="center"><strong>4. Running the Demo App - <a href="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/app.py">app.py</a></strong></p>
 
 <strong>You can choose between two input sources:</strong>
 - <strong>Webcam</strong>: Run detection live on your camera.
 - <strong>Video File</strong>: Upload and process a video (e.g., mp4).
+
 <p align="center">
-  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/Option.png" width="550"><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/Option.png"><br>
 </p>
 
 <p align="center">
   <b>Example: Detection via Video File</b><br>
-  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/VideoFile.png" width="400"><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/VideoFile.png"><br>
   <em>Sample video detection output—bounding boxes and class labels appear on every frame.</em>
 </p>
 
 <p align="center">
   <b>Example: Detection via Webcam</b><br>
-  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/WebCam.png" width="600"><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/WebCam.png"><br>
   <em>Sample webcam detection output—run real-time detection on your own camera feed.</em>
 </p>
 
 <p align="center">
   <b>Terminal Output During Webcam Detection</b><br>
-  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/Terminal.png" width="700"><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/Terminal.png"><br>
   <em>The terminal shows inference speed, frame details, and detected objects in real time while running webcam detection.</em>
 </p>
 
 
 ```bash
-# Install dependencies
-pip install streamlit ultralytics opencv-python
 
-# Run the Streamlit app
-streamlit run app.py
+**Clone this repository to your local machine:**
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
+    
+**Download or place the trained model weights:**
+    - Ensure the file `best.pt` (your trained YOLOv8 weights) is in the same folder as `app.py`.
+    - If you keep `best.pt` elsewhere, provide the correct path in the app’s model path field when running.
+   
+**Install dependencies:**
+    ```bash
+    pip install streamlit ultralytics opencv-python
+    ```
+    
+**Run the Streamlit app:**
+    ```bash
+    streamlit run app.py
+    ```
