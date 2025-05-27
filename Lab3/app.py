@@ -6,14 +6,12 @@ import os
 
 st.title("YOLO Object Detection")
 
-# Model input
 model_path = st.text_input("Path to your YOLO model (.pt):", "best.pt")
 if not os.path.exists(model_path):
     st.warning(f"Model file '{model_path}' not found in {os.getcwd()}!")
     st.stop()
 model = YOLO(model_path)
 
-# Input source select
 option = st.selectbox("Select Input Source:", ("Webcam", "Video File"))
 
 if option == "Webcam":
@@ -51,7 +49,7 @@ elif option == "Video File":
             cap = cv2.VideoCapture(video_path)
             stframe = st.empty()
             frame_count = 0
-            while cap.isOpened() and frame_count < 100:  # Limit to 100 frames for demo
+            while cap.isOpened() and frame_count < 100:
                 ret, frame = cap.read()
                 if not ret:
                     break
