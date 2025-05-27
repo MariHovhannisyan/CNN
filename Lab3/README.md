@@ -109,7 +109,7 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
   <em>The terminal shows inference speed, frame details, and detected objects in real time while running webcam detection.</em>
 </p>
 
-<h2 align="center"><strong>How to use this project</strong></h2>
+<h2 align="center"><strong>5. How to use this project</strong></h2>
 
 1. **Clone this repository to your local machine:**
     ```bash
