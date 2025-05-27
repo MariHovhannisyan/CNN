@@ -40,15 +40,16 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
 
 <p align="center">
   <b>Before Hyperparameter Tuning:</b><br>
-  <img src="Before.png" width="650"><br>
-  <img src="generated_images/Experiment_Loss.png" width="650"><br>
-  <img src="Experiment_Accuracy.png" width="750"><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/Before.png" width="650"><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/generated_images/Experiment_Loss.png" width="650"><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/generated_images/Experiment_Accuracy.png" width="750"><br>
+
   <em>Before tuning, the model suffered from high validation loss and unstable metrics, indicating possible overfitting and poor generalization.</em>
 </p>
 
 <p align="center">
   <b>After Hyperparameter Tuning:</b><br>
-  <img src="After.png" width="650"><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/After.png" width="650"><br>
   <em>After improvements, loss curves became smoother and validation metrics improved, showing better generalization and less overfitting.</em>
 </p>
 
