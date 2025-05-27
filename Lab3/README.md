@@ -92,3 +92,4 @@ pip install streamlit ultralytics opencv-python
 
 # Run the Streamlit app
 streamlit run app.py
+
