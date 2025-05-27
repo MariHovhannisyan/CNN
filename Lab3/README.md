@@ -81,8 +81,7 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
 - <strong>mAP@0.5:0.95:</strong> <b>0.497</b> (within typical YOLOv8s range: 0.50–0.57)
 
 ---
-
-<p align="center"><strong>4. Running the Demo App - <a href="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/app.py">app.py</a></strong></p>
+<h2 align="center"><strong>4. Running the Demo App</strong></h2>
 
 <strong>You can choose between two input sources:</strong>
 - <strong>Webcam</strong>: Run detection live on your camera.
@@ -94,13 +93,13 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
 
 <p align="center">
   <b>Example: Detection via Video File</b><br>
-  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/VideoFile.png" width="950" ><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/VideoFile.png" width="1150" ><br>
   <em>Sample video detection output—bounding boxes and class labels appear on every frame.</em>
 </p>
 
 <p align="center">
   <b>Example: Detection via Webcam</b><br>
-  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/WebCam.png" width="950" ><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/WebCam.png" width="1150" ><br>
   <em>Sample webcam detection output—run real-time detection on your own camera feed.</em>
 </p>
 
@@ -110,8 +109,7 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
   <em>The terminal shows inference speed, frame details, and detected objects in real time while running webcam detection.</em>
 </p>
 
-
-## How to Use This Project
+<h2 align="center"><strong>How to use this project</strong></h2>
 
 1. **Clone this repository to your local machine:**
     ```bash
