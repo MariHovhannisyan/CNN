@@ -82,19 +82,33 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
 
 ---
 
-<h2 align="center"><strong>4. Running the Demo App (<code>app.py</code>)</strong></h2>
+<h2 align="center"><strong>4. Running the Demo App [app.py](https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/app.py)
 
-This repo provides an interactive demo for object detection using Streamlit.  
 <strong>You can choose between two input sources:</strong>
 - <strong>Webcam</strong>: Run detection live on your camera.
 - <strong>Video File</strong>: Upload and process a video (e.g., mp4).
+<p align="center">
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/Option.png" width="550"><br>
+</p>
 
-<strong>App features:</strong>
-- Select YOLOv8 model (.pt) path
-- Choose webcam or video file as input
-- Displays annotated detection results in real time
+<p align="center">
+  <b>Example: Detection via Video File</b><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/VideoFile.png" width="400"><br>
+  <em>Sample video detection output—bounding boxes and class labels appear on every frame.</em>
+</p>
 
-<strong>To run the app locally:</strong>
+<p align="center">
+  <b>Example: Detection via Webcam</b><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/WebCam.png" width="600"><br>
+  <em>Sample webcam detection output—run real-time detection on your own camera feed.</em>
+</p>
+
+<p align="center">
+  <b>Terminal Output During Webcam Detection</b><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/Terminal.png" width="700"><br>
+  <em>The terminal shows inference speed, frame details, and detected objects in real time while running webcam detection.</em>
+</p>
+
 
 ```bash
 # Install dependencies
