@@ -94,13 +94,13 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
 
 <p align="center">
   <b>Example: Detection via Video File</b><br>
-  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/VideoFile.png" width="550" ><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/VideoFile.png" width="950" ><br>
   <em>Sample video detection output—bounding boxes and class labels appear on every frame.</em>
 </p>
 
 <p align="center">
   <b>Example: Detection via Webcam</b><br>
-  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/WebCam.png" width="550" ><br>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/WebCam.png" width="950" ><br>
   <em>Sample webcam detection output—run real-time detection on your own camera feed.</em>
 </p>
 
