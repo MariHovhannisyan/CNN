@@ -64,8 +64,8 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
 <h2 align="center"><strong>3. Benchmark Comparison</strong></h2>
 
 <p align="center">
-  <img src="Benchmark.png" width="550"><br>
-  <em>YOLOv8 Results vs. Community Benchmark (PASCAL VOC 2012)</em>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/generated_images/Benchmark.png" width="550"><br>
+  <em>My Results vs Community Benchmark</em>
 </p>
 
 - <strong>mAP@0.5:</strong> <b>0.760</b> (within typical YOLOv8s range: 0.70–0.80)
