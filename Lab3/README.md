@@ -43,14 +43,23 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
   <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/Before.png" width="650"><br>
   <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/generated_images/Experiment_Loss.png" width="650"><br>
   <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/generated_images/Experiment_Accuracy.png" width="750"><br>
-
-  <em>Before tuning, the model suffered from high validation loss and unstable metrics, indicating possible overfitting and poor generalization.</em>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/generated_images/Experiment_Random.png" width="750"><br>
+<em>
+    Before tuning, the model suffered from high validation loss and unstable metrics, indicating possible overfitting and poor generalization.
+    <br>
+    Detection results were also unreliable: as seen above, the bounding boxes are often inaccurate or duplicate, showing poor object localization and class confidence due to suboptimal hyperparameters.
+  </em>
 </p>
 
 <p align="center">
   <b>After Hyperparameter Tuning:</b><br>
   <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/After.png" width="650"><br>
-  <em>After improvements, loss curves became smoother and validation metrics improved, showing better generalization and less overfitting.</em>
+  <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/generated_images/After_Random.png" width="650"><br>
+  <em>
+    After improvements, loss curves became smoother and validation metrics improved, showing better generalization and less overfitting.
+    <br>
+    Detection results also became much more accurate: bounding boxes are now tighter and more precise, correctly identifying objects with higher confidence and fewer duplicates, reflecting stronger model performance after tuning.
+  </em>
 </p>
 
 - <strong>Key changes:</strong>
