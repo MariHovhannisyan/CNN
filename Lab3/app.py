@@ -15,7 +15,7 @@ model = YOLO(model_path)
 option = st.selectbox("Select Input Source:", ("Webcam", "Video File"))
 
 if option == "Webcam":
-    st.write("Click 'Start' to use your webcam for detection. (Works locally, not in Colab.)")
+    st.write("Click 'Start' to use your webcam for detection.")
     run_webcam = st.button("Start Webcam Detection")
     if run_webcam:
         cap = cv2.VideoCapture(0)
@@ -31,7 +31,6 @@ if option == "Webcam":
             annotated = results[0].plot()
             stframe.image(annotated, channels="BGR", caption=f"Webcam Frame {frame_count+1}")
             frame_count += 1
-            # Break after 100 frames for demo, or stop manually (CTRL+C)
             if frame_count >= 100:
                 st.info("Stopped after 100 frames (demo limit). Restart to continue.")
                 break
