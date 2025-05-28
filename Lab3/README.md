@@ -35,7 +35,7 @@ This project uses the <strong>YOLOv8</strong> architecture for object detection,
 
 <h2 align="center"><strong>Experimenting with Hyperparameters</strong></h2>
 
-To achieve higher accuracy and address **overfitting**, we experimented with various hyperparameters (learning rate, batch size, optimizer, data augmentation, etc.).  
+To achieve higher accuracy and address **overfitting**, I experimented with various hyperparameters (learning rate, batch size, optimizer, data augmentation).  
 Below are the loss and accuracy curves **before** and **after** the hyperparameter improvements:
 
 <p align="center">
@@ -64,8 +64,8 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
 
 - <strong>Key changes:</strong>
   - Adjusted learning rate and batch size
-  - Switched optimizer (e.g., SGD)
-  - Added strong data augmentation (mosaic, mixup, flip, etc.)
+  - Switched optimizer 
+  - Added strong data augmentation (mosaic, mixup, flip)
   - Increased patience and training epochs
 
 ---
@@ -83,9 +83,9 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
 ---
 <h2 align="center"><strong>4. Running the Demo App</strong></h2>
 
-<strong>You can choose between two input sources:</strong>
+<strong>We can choose between 2 input sources:</strong>
 - <strong>Webcam</strong>: Run detection live on your camera.
-- <strong>Video File</strong>: Upload and process a video (e.g., mp4).
+- <strong>Video File</strong>: Upload and process a video.
 
 <p align="center">
   <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/Option.png" ><br>
@@ -118,7 +118,7 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
     ```
 
 2. **Download or place the trained model weights:**
-    - Ensure the file `best.pt` (your trained YOLOv8 weights) is in the same folder as `app.py`.
+    - Ensure the file [best.pt](https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/best.pt) (your trained YOLOv8 weights) is in the same folder as [app.py](https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/app.py).
 
 3. **Install dependencies:**
     ```bash
@@ -129,6 +129,4 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
     ```bash
     streamlit run app.py
     ```
-   
 
-![Demo](/Users/admin/Desktop/CNN/Video-ezgif.com-optimize.gif)
