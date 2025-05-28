@@ -129,3 +129,6 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
     ```bash
     streamlit run app.py
     ```
+   
+
+![Demo](/Users/admin/Desktop/CNN/Video-ezgif.com-optimize.gif)
