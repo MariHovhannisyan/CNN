@@ -97,6 +97,8 @@ Below are the loss and accuracy curves **before** and **after** the hyperparamet
   <em>Sample video detection output—bounding boxes and class labels appear on every frame.</em>
 </p>
 
+## **[CLICK HERE](https://drive.google.com/file/d/1LEcfkCQxZdRgw3CS4XouMyLqhq1k6-9y/view?usp=drive_link)** to see results of detection via uploading Video File.
+
 <p align="center">
   <b>Example: Detection via Webcam</b><br>
   <img src="https://github.com/MariHovhannisyan/CNN/blob/master/Lab3/images/WebCam.png" width="1150" ><br>
